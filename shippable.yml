@@ -4,7 +4,5 @@ jdk: openjdk8
 
 build:
   ci:
-    - mvn -U -B clean package
-
-  cache: true
-  cache_dir_list: ~/.m2
+    - source ./functions.sh
+    - build
