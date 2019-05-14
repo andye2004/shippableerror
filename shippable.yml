@@ -4,5 +4,5 @@ jdk: openjdk8
 
 build:
   ci:
-    - source ./functions.sh
+    - chmod a+x ./functions.sh && source ./functions.sh
     - build
