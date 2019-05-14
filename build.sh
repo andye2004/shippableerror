@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo JAVA_HOME=${JAVA_HOME}
+echo "[build.sh] JAVA_HOME=${JAVA_HOME}"

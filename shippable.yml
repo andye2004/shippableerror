@@ -4,5 +4,6 @@ jdk: openjdk8
 
 build:
   ci:
+    - echo "[shippable.yml] JAVA_HOME=${JAVA_HOME}"
     - chmod a+x ./*.sh && source ./functions.sh
     - build

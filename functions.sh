@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 function build () {
-    echo JAVA_HOME=${JAVA_HOME}
+    echo "[functions.sh] JAVA_HOME=${JAVA_HOME}"
     ./build.sh
 }
