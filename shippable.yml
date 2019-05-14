@@ -5,3 +5,6 @@ jdk: oraclejdk8
 build:
   ci:
     - mvn clean package
+
+  cache: true
+  cache_dir_list: ~/.m2
