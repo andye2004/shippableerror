@@ -29,6 +29,7 @@
                 </executions>
                 <configuration>
                     <sources>
+                        <packageName>com.yambay.xsddemo</packageName>
                         <source>src/main/resources/schema.xsd</source>
                     </sources>
                 </configuration>
