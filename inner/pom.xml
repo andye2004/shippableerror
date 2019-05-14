@@ -26,9 +26,10 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <packageName>com.yambay.xsddemo</packageName>
                     <sources>
-                        <packageName>com.yambay.xsddemo</packageName>
-                        <source>src/main/resources/schema.xsd</source>
+                        <source>${project.basedir}/src/main/resources/mdff/mDroverForceLogOff.xsd</source>
+                        <source>${project.basedir}/src/main/resources/mdff/mDroverResponse.xsd</source>
                     </sources>
                 </configuration>
             </plugin>
